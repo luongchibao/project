@@ -1,0 +1,99 @@
+/* Reset Margin & Padding */
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+// File SCSS thi chi can viet long the con vao trong the cha
+
+/* Header */
+.header {
+    /* border: 1px solid red; */
+    height: 500px;
+    background-image: url("./img/banner-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+
+    .about-signin {
+        height: 80px;
+        width: 100%;
+        text-align: right;
+        
+        .aboutus, 
+        .signin {
+            /* float: right; */
+            text-decoration: none;
+            margin-top: 20px;
+            padding: 10px 15px;
+            display: inline-block;
+            text-transform: uppercase;
+            
+        }
+
+        .signin {
+            margin-left: 20px ;
+            margin-right: 100px;
+            color: green;
+            border: 2px solid green;
+            border-radius: 15px;
+        }
+
+        .aboutus{
+            color: black;
+        }
+
+    }
+
+    .logo {
+        background: url(./img/hapoERP.png) center center no-repeat;
+        /* margin-top: 40px; */
+        height: 100px;
+    }
+
+    .text {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .content-center {
+        height: 50px;
+        /* border: 1px solid red; */
+        
+        .left, .right, .center {
+            width: 33%;
+            display: inline-block;
+            text-align: center;
+            
+            .content-img {
+                height: 30px;
+                width: 30px;
+            }
+
+            .content-span {
+                display: block;
+                font-size: 20px;
+            }
+        }
+    }
+
+    .btn-start-now {
+        text-align: center;
+
+        button {
+            text-transform: uppercase;
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            border: 1px solid gray;
+            border-radius: 15px;
+            margin-top: 50px;
+            cursor: pointer;
+        }
+
+    }
+}
+
+
+
